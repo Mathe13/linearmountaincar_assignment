@@ -58,7 +58,11 @@ class FeatureExtractor(ABC):
         This helper clamps out-of-bounds values to the [0,1] interval which
         is useful for grid-based or RBF centers defined in normalized space.
         """
-        raise NotImplementedError("Please implement normalize_state as part of the assignment.")
+        state = np.asarray(state, dtype=np.float64)
+        obs_low = self.env.observation_space.low
+        obs_high = self.env.observation_space.high
+        norm = (state - obs_low) / (obs_high - obs_low)
+        return np.clip(norm, 0.0, 1.0)
 
 
 class RBFFeatureExtractor(FeatureExtractor):
@@ -82,7 +86,6 @@ class RBFFeatureExtractor(FeatureExtractor):
         self.n_centers = int(n_centers)
         self.sigma = float(sigma)
 
-        
         self._create_rbf_centers()
 
         super().__init__(env)
@@ -99,11 +102,28 @@ class RBFFeatureExtractor(FeatureExtractor):
         within the normalized [0,1] coordinates. The first center must be at (0,0) and the last at (1,1).
 
         """
-        raise NotImplementedError("Please implement _create_rbf_centers as part of the assignment.")
+        k = int(np.ceil(np.sqrt(self.n_centers)))
+        if k <= 1:
+            self.centers = np.zeros((self.n_centers, 2), dtype=np.float64)
+            if self.n_centers > 0:
+                self.centers[-1] = [1.0, 1.0]
+        else:
+            xs = np.linspace(0.0, 1.0, k)
+            ys = np.linspace(0.0, 1.0, k)
+            gx, gy = np.meshgrid(xs, ys)
+            all_centers = np.column_stack([gx.ravel(), gy.ravel()])
+            if len(all_centers) == self.n_centers:
+                self.centers = all_centers
+            else:
+                self.centers = all_centers[:self.n_centers].copy()
+                self.centers[-1] = [1.0, 1.0]
 
     def extract_features(self, state: np.ndarray) -> np.ndarray:
         """(Student) Compute RBF feature activations for a state.
 
         Returns a 1D numpy array of length `self.n_features`.
         """
-        raise NotImplementedError("Please implement extract_features as part of the assignment.")
+        norm_state = self.normalize_state(state)
+        diff = self.centers - norm_state
+        sq_dist = np.sum(diff ** 2, axis=1)
+        return np.exp(-sq_dist / (2.0 * (self.sigma ** 2)))

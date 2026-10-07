@@ -47,7 +47,7 @@ class LinearSarsaAgent:
 
         # Students should initialize weights to zeros with shape
         # (n_actions, feature_extractor.n_features)
-        self.weights = [] #TODO: Initialize properly
+        self.weights = np.zeros((self.n_actions, self.feature_extractor.n_features), dtype=np.float64)
 
         # Track training statistics
         self.episode_rewards = []
@@ -58,19 +58,27 @@ class LinearSarsaAgent:
 
         compute the dot product between weights and features.
         """
-        raise NotImplementedError()
+        features = self.feature_extractor.extract_features(state)
+        return float(np.dot(self.weights[action], features))
 
     def V(self, state: np.ndarray) -> float:
         """Return the maximum Q over actions for a state."""
-        raise NotImplementedError()
+        features = self.feature_extractor.extract_features(state)
+        q_values = np.dot(self.weights, features)
+        return float(np.max(q_values))
 
     def act(self, state: np.ndarray) -> int:
         """Epsilon-greedy action selection (student to implement).
 
         HINT: With probability epsilon choose random action, otherwise argmax Q.
         """
-        # Student implementation required
-        raise NotImplementedError("Implement epsilon-greedy policy in act()")
+        if np.random.rand() < self.epsilon:
+            return int(self.env.action_space.sample())
+        features = self.feature_extractor.extract_features(state)
+        q_values = np.dot(self.weights, features)
+        max_q = np.max(q_values)
+        best_actions = np.flatnonzero(q_values == max_q)
+        return int(np.random.choice(best_actions))
 
     def updateQ(
         self,
@@ -83,13 +91,24 @@ class LinearSarsaAgent:
     ) -> None:
         """SARSA weight update 
         """
-        raise NotImplementedError("Implement SARSA update rule in updateQ()")
+        phi_s = self.feature_extractor.extract_features(state)
+        q_current = float(np.dot(self.weights[action], phi_s))
+
+        if done:
+            target = reward
+        else:
+            phi_next = self.feature_extractor.extract_features(next_state)
+            q_next = float(np.dot(self.weights[next_action], phi_next))
+            target = reward + self.discount_factor * q_next
+
+        td_error = target - q_current
+        self.weights[action] += self.learning_rate * td_error * phi_s
 
     def decay_epsilon(self) -> None:
         """Decay epsilon after each episode (simple multiplicative decay).
         Don't decay below self.epsilon_min
         """
-        raise NotImplementedError("Implement epsilon decay in decay_epsilon()")
+        self.epsilon = max(self.epsilon_min, self.epsilon * self.epsilon_decay)
 
     def train(self, total_steps: int) -> Tuple[List[float], List[float]]:
         """Train the agent for a fixed number of environment steps.
@@ -101,7 +120,41 @@ class LinearSarsaAgent:
 
         Returns two lists: rewards per step and rewards per episode.
         """
-        raise NotImplementedError("Implement training loop in train()")
+        step_rewards: List[float] = []
+        episode_rewards: List[float] = []
+
+        current_step = 0
+        while current_step < total_steps:
+            state, _ = self.env.reset()
+            action = self.act(state)
+            episode_reward = 0.0
+            episode_length = 0
+
+            done = False
+            while not done and current_step < total_steps:
+                next_state, reward, terminated, truncated, _ = self.env.step(action)
+                done = terminated or truncated
+
+                current_step += 1
+                step_rewards.append(float(reward))
+                episode_reward += float(reward)
+                episode_length += 1
+
+                if done:
+                    self.updateQ(state, action, reward, next_state, 0, done=True)
+                else:
+                    next_action = self.act(next_state)
+                    self.updateQ(state, action, reward, next_state, next_action, done=False)
+                    state = next_state
+                    action = next_action
+
+            if done:
+                self.decay_epsilon()
+                self.episode_rewards.append(episode_reward)
+                self.episode_lengths.append(episode_length)
+                episode_rewards.append(episode_reward)
+
+        return step_rewards, episode_rewards
 
     def save_model(self, filepath: str) -> None:
         """Save weights and feature extractor config.
@@ -127,7 +180,7 @@ class LinearSarsaAgent:
         with open(filepath, 'rb') as f:
             model_data = pickle.load(f)
 
-        self.weights = model_data['weights']
+        self.weights = np.asarray(model_data['weights'], dtype=np.float64)
         self.epsilon = model_data.get('epsilon', self.epsilon)
         self.episode_rewards = model_data.get('episode_rewards', [])
         self.episode_lengths = model_data.get('episode_lengths', [])
