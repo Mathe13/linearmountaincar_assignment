@@ -1,0 +1,2252 @@
+[
+  {
+    "learning_rate": 0.005,
+    "n_centers": 9,
+    "seed": 42,
+    "steps_to_10_successes": 50000,
+    "reached_target": false,
+    "total_successes": 7,
+    "episodes": 251
+  },
+  {
+    "learning_rate": 0.005,
+    "n_centers": 9,
+    "seed": 43,
+    "steps_to_10_successes": 50000,
+    "reached_target": false,
+    "total_successes": 7,
+    "episodes": 251
+  },
+  {
+    "learning_rate": 0.005,
+    "n_centers": 9,
+    "seed": 44,
+    "steps_to_10_successes": 50000,
+    "reached_target": false,
+    "total_successes": 9,
+    "episodes": 251
+  },
+  {
+    "learning_rate": 0.005,
+    "n_centers": 9,
+    "seed": 45,
+    "steps_to_10_successes": 46282,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 233
+  },
+  {
+    "learning_rate": 0.005,
+    "n_centers": 9,
+    "seed": 46,
+    "steps_to_10_successes": 50000,
+    "reached_target": false,
+    "total_successes": 3,
+    "episodes": 250
+  },
+  {
+    "learning_rate": 0.005,
+    "n_centers": 9,
+    "seed": 47,
+    "steps_to_10_successes": 50000,
+    "reached_target": false,
+    "total_successes": 5,
+    "episodes": 250
+  },
+  {
+    "learning_rate": 0.005,
+    "n_centers": 9,
+    "seed": 48,
+    "steps_to_10_successes": 50000,
+    "reached_target": false,
+    "total_successes": 5,
+    "episodes": 250
+  },
+  {
+    "learning_rate": 0.005,
+    "n_centers": 9,
+    "seed": 49,
+    "steps_to_10_successes": 50000,
+    "reached_target": false,
+    "total_successes": 8,
+    "episodes": 251
+  },
+  {
+    "learning_rate": 0.005,
+    "n_centers": 9,
+    "seed": 50,
+    "steps_to_10_successes": 50000,
+    "reached_target": false,
+    "total_successes": 9,
+    "episodes": 251
+  },
+  {
+    "learning_rate": 0.005,
+    "n_centers": 9,
+    "seed": 51,
+    "steps_to_10_successes": 50000,
+    "reached_target": false,
+    "total_successes": 6,
+    "episodes": 250
+  },
+  {
+    "learning_rate": 0.005,
+    "n_centers": 16,
+    "seed": 42,
+    "steps_to_10_successes": 50000,
+    "reached_target": false,
+    "total_successes": 8,
+    "episodes": 251
+  },
+  {
+    "learning_rate": 0.005,
+    "n_centers": 16,
+    "seed": 43,
+    "steps_to_10_successes": 50000,
+    "reached_target": false,
+    "total_successes": 0,
+    "episodes": 250
+  },
+  {
+    "learning_rate": 0.005,
+    "n_centers": 16,
+    "seed": 44,
+    "steps_to_10_successes": 50000,
+    "reached_target": false,
+    "total_successes": 3,
+    "episodes": 250
+  },
+  {
+    "learning_rate": 0.005,
+    "n_centers": 16,
+    "seed": 45,
+    "steps_to_10_successes": 50000,
+    "reached_target": false,
+    "total_successes": 0,
+    "episodes": 250
+  },
+  {
+    "learning_rate": 0.005,
+    "n_centers": 16,
+    "seed": 46,
+    "steps_to_10_successes": 50000,
+    "reached_target": false,
+    "total_successes": 1,
+    "episodes": 250
+  },
+  {
+    "learning_rate": 0.005,
+    "n_centers": 16,
+    "seed": 47,
+    "steps_to_10_successes": 50000,
+    "reached_target": false,
+    "total_successes": 0,
+    "episodes": 250
+  },
+  {
+    "learning_rate": 0.005,
+    "n_centers": 16,
+    "seed": 48,
+    "steps_to_10_successes": 50000,
+    "reached_target": false,
+    "total_successes": 1,
+    "episodes": 250
+  },
+  {
+    "learning_rate": 0.005,
+    "n_centers": 16,
+    "seed": 49,
+    "steps_to_10_successes": 50000,
+    "reached_target": false,
+    "total_successes": 3,
+    "episodes": 250
+  },
+  {
+    "learning_rate": 0.005,
+    "n_centers": 16,
+    "seed": 50,
+    "steps_to_10_successes": 50000,
+    "reached_target": false,
+    "total_successes": 2,
+    "episodes": 250
+  },
+  {
+    "learning_rate": 0.005,
+    "n_centers": 16,
+    "seed": 51,
+    "steps_to_10_successes": 50000,
+    "reached_target": false,
+    "total_successes": 5,
+    "episodes": 250
+  },
+  {
+    "learning_rate": 0.005,
+    "n_centers": 25,
+    "seed": 42,
+    "steps_to_10_successes": 32480,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 164
+  },
+  {
+    "learning_rate": 0.005,
+    "n_centers": 25,
+    "seed": 43,
+    "steps_to_10_successes": 35527,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 179
+  },
+  {
+    "learning_rate": 0.005,
+    "n_centers": 25,
+    "seed": 44,
+    "steps_to_10_successes": 36696,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 185
+  },
+  {
+    "learning_rate": 0.005,
+    "n_centers": 25,
+    "seed": 45,
+    "steps_to_10_successes": 36009,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 182
+  },
+  {
+    "learning_rate": 0.005,
+    "n_centers": 25,
+    "seed": 46,
+    "steps_to_10_successes": 35863,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 181
+  },
+  {
+    "learning_rate": 0.005,
+    "n_centers": 25,
+    "seed": 47,
+    "steps_to_10_successes": 37998,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 192
+  },
+  {
+    "learning_rate": 0.005,
+    "n_centers": 25,
+    "seed": 48,
+    "steps_to_10_successes": 34846,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 176
+  },
+  {
+    "learning_rate": 0.005,
+    "n_centers": 25,
+    "seed": 49,
+    "steps_to_10_successes": 34763,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 175
+  },
+  {
+    "learning_rate": 0.005,
+    "n_centers": 25,
+    "seed": 50,
+    "steps_to_10_successes": 36461,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 184
+  },
+  {
+    "learning_rate": 0.005,
+    "n_centers": 25,
+    "seed": 51,
+    "steps_to_10_successes": 35294,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 178
+  },
+  {
+    "learning_rate": 0.005,
+    "n_centers": 36,
+    "seed": 42,
+    "steps_to_10_successes": 24177,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 123
+  },
+  {
+    "learning_rate": 0.005,
+    "n_centers": 36,
+    "seed": 43,
+    "steps_to_10_successes": 26795,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 135
+  },
+  {
+    "learning_rate": 0.005,
+    "n_centers": 36,
+    "seed": 44,
+    "steps_to_10_successes": 23323,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 118
+  },
+  {
+    "learning_rate": 0.005,
+    "n_centers": 36,
+    "seed": 45,
+    "steps_to_10_successes": 28127,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 143
+  },
+  {
+    "learning_rate": 0.005,
+    "n_centers": 36,
+    "seed": 46,
+    "steps_to_10_successes": 26744,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 135
+  },
+  {
+    "learning_rate": 0.005,
+    "n_centers": 36,
+    "seed": 47,
+    "steps_to_10_successes": 24513,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 124
+  },
+  {
+    "learning_rate": 0.005,
+    "n_centers": 36,
+    "seed": 48,
+    "steps_to_10_successes": 24415,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 124
+  },
+  {
+    "learning_rate": 0.005,
+    "n_centers": 36,
+    "seed": 49,
+    "steps_to_10_successes": 24643,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 125
+  },
+  {
+    "learning_rate": 0.005,
+    "n_centers": 36,
+    "seed": 50,
+    "steps_to_10_successes": 26439,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 134
+  },
+  {
+    "learning_rate": 0.005,
+    "n_centers": 36,
+    "seed": 51,
+    "steps_to_10_successes": 22977,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 117
+  },
+  {
+    "learning_rate": 0.005,
+    "n_centers": 49,
+    "seed": 42,
+    "steps_to_10_successes": 19668,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 100
+  },
+  {
+    "learning_rate": 0.005,
+    "n_centers": 49,
+    "seed": 43,
+    "steps_to_10_successes": 18448,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 94
+  },
+  {
+    "learning_rate": 0.005,
+    "n_centers": 49,
+    "seed": 44,
+    "steps_to_10_successes": 19690,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 100
+  },
+  {
+    "learning_rate": 0.005,
+    "n_centers": 49,
+    "seed": 45,
+    "steps_to_10_successes": 19540,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 99
+  },
+  {
+    "learning_rate": 0.005,
+    "n_centers": 49,
+    "seed": 46,
+    "steps_to_10_successes": 18301,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 93
+  },
+  {
+    "learning_rate": 0.005,
+    "n_centers": 49,
+    "seed": 47,
+    "steps_to_10_successes": 19691,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 100
+  },
+  {
+    "learning_rate": 0.005,
+    "n_centers": 49,
+    "seed": 48,
+    "steps_to_10_successes": 20820,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 106
+  },
+  {
+    "learning_rate": 0.005,
+    "n_centers": 49,
+    "seed": 49,
+    "steps_to_10_successes": 20976,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 106
+  },
+  {
+    "learning_rate": 0.005,
+    "n_centers": 49,
+    "seed": 50,
+    "steps_to_10_successes": 19882,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 101
+  },
+  {
+    "learning_rate": 0.005,
+    "n_centers": 49,
+    "seed": 51,
+    "steps_to_10_successes": 18811,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 96
+  },
+  {
+    "learning_rate": 0.01,
+    "n_centers": 9,
+    "seed": 42,
+    "steps_to_10_successes": 50000,
+    "reached_target": false,
+    "total_successes": 7,
+    "episodes": 250
+  },
+  {
+    "learning_rate": 0.01,
+    "n_centers": 9,
+    "seed": 43,
+    "steps_to_10_successes": 50000,
+    "reached_target": false,
+    "total_successes": 5,
+    "episodes": 250
+  },
+  {
+    "learning_rate": 0.01,
+    "n_centers": 9,
+    "seed": 44,
+    "steps_to_10_successes": 50000,
+    "reached_target": false,
+    "total_successes": 7,
+    "episodes": 251
+  },
+  {
+    "learning_rate": 0.01,
+    "n_centers": 9,
+    "seed": 45,
+    "steps_to_10_successes": 50000,
+    "reached_target": false,
+    "total_successes": 6,
+    "episodes": 251
+  },
+  {
+    "learning_rate": 0.01,
+    "n_centers": 9,
+    "seed": 46,
+    "steps_to_10_successes": 50000,
+    "reached_target": false,
+    "total_successes": 8,
+    "episodes": 251
+  },
+  {
+    "learning_rate": 0.01,
+    "n_centers": 9,
+    "seed": 47,
+    "steps_to_10_successes": 50000,
+    "reached_target": false,
+    "total_successes": 7,
+    "episodes": 250
+  },
+  {
+    "learning_rate": 0.01,
+    "n_centers": 9,
+    "seed": 48,
+    "steps_to_10_successes": 50000,
+    "reached_target": false,
+    "total_successes": 4,
+    "episodes": 250
+  },
+  {
+    "learning_rate": 0.01,
+    "n_centers": 9,
+    "seed": 49,
+    "steps_to_10_successes": 50000,
+    "reached_target": false,
+    "total_successes": 6,
+    "episodes": 251
+  },
+  {
+    "learning_rate": 0.01,
+    "n_centers": 9,
+    "seed": 50,
+    "steps_to_10_successes": 50000,
+    "reached_target": false,
+    "total_successes": 4,
+    "episodes": 250
+  },
+  {
+    "learning_rate": 0.01,
+    "n_centers": 9,
+    "seed": 51,
+    "steps_to_10_successes": 46058,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 232
+  },
+  {
+    "learning_rate": 0.01,
+    "n_centers": 16,
+    "seed": 42,
+    "steps_to_10_successes": 37385,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 188
+  },
+  {
+    "learning_rate": 0.01,
+    "n_centers": 16,
+    "seed": 43,
+    "steps_to_10_successes": 31893,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 161
+  },
+  {
+    "learning_rate": 0.01,
+    "n_centers": 16,
+    "seed": 44,
+    "steps_to_10_successes": 36548,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 184
+  },
+  {
+    "learning_rate": 0.01,
+    "n_centers": 16,
+    "seed": 45,
+    "steps_to_10_successes": 35353,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 179
+  },
+  {
+    "learning_rate": 0.01,
+    "n_centers": 16,
+    "seed": 46,
+    "steps_to_10_successes": 31457,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 158
+  },
+  {
+    "learning_rate": 0.01,
+    "n_centers": 16,
+    "seed": 47,
+    "steps_to_10_successes": 38787,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 195
+  },
+  {
+    "learning_rate": 0.01,
+    "n_centers": 16,
+    "seed": 48,
+    "steps_to_10_successes": 32672,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 165
+  },
+  {
+    "learning_rate": 0.01,
+    "n_centers": 16,
+    "seed": 49,
+    "steps_to_10_successes": 37939,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 191
+  },
+  {
+    "learning_rate": 0.01,
+    "n_centers": 16,
+    "seed": 50,
+    "steps_to_10_successes": 38604,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 195
+  },
+  {
+    "learning_rate": 0.01,
+    "n_centers": 16,
+    "seed": 51,
+    "steps_to_10_successes": 37403,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 189
+  },
+  {
+    "learning_rate": 0.01,
+    "n_centers": 25,
+    "seed": 42,
+    "steps_to_10_successes": 23420,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 119
+  },
+  {
+    "learning_rate": 0.01,
+    "n_centers": 25,
+    "seed": 43,
+    "steps_to_10_successes": 21231,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 108
+  },
+  {
+    "learning_rate": 0.01,
+    "n_centers": 25,
+    "seed": 44,
+    "steps_to_10_successes": 21697,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 110
+  },
+  {
+    "learning_rate": 0.01,
+    "n_centers": 25,
+    "seed": 45,
+    "steps_to_10_successes": 21339,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 108
+  },
+  {
+    "learning_rate": 0.01,
+    "n_centers": 25,
+    "seed": 46,
+    "steps_to_10_successes": 23145,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 117
+  },
+  {
+    "learning_rate": 0.01,
+    "n_centers": 25,
+    "seed": 47,
+    "steps_to_10_successes": 21228,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 108
+  },
+  {
+    "learning_rate": 0.01,
+    "n_centers": 25,
+    "seed": 48,
+    "steps_to_10_successes": 20038,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 102
+  },
+  {
+    "learning_rate": 0.01,
+    "n_centers": 25,
+    "seed": 49,
+    "steps_to_10_successes": 21321,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 108
+  },
+  {
+    "learning_rate": 0.01,
+    "n_centers": 25,
+    "seed": 50,
+    "steps_to_10_successes": 20123,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 102
+  },
+  {
+    "learning_rate": 0.01,
+    "n_centers": 25,
+    "seed": 51,
+    "steps_to_10_successes": 20437,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 104
+  },
+  {
+    "learning_rate": 0.01,
+    "n_centers": 36,
+    "seed": 42,
+    "steps_to_10_successes": 15922,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 81
+  },
+  {
+    "learning_rate": 0.01,
+    "n_centers": 36,
+    "seed": 43,
+    "steps_to_10_successes": 14355,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 73
+  },
+  {
+    "learning_rate": 0.01,
+    "n_centers": 36,
+    "seed": 44,
+    "steps_to_10_successes": 15656,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 80
+  },
+  {
+    "learning_rate": 0.01,
+    "n_centers": 36,
+    "seed": 45,
+    "steps_to_10_successes": 16700,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 85
+  },
+  {
+    "learning_rate": 0.01,
+    "n_centers": 36,
+    "seed": 46,
+    "steps_to_10_successes": 15430,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 79
+  },
+  {
+    "learning_rate": 0.01,
+    "n_centers": 36,
+    "seed": 47,
+    "steps_to_10_successes": 16202,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 83
+  },
+  {
+    "learning_rate": 0.01,
+    "n_centers": 36,
+    "seed": 48,
+    "steps_to_10_successes": 14708,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 75
+  },
+  {
+    "learning_rate": 0.01,
+    "n_centers": 36,
+    "seed": 49,
+    "steps_to_10_successes": 16650,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 85
+  },
+  {
+    "learning_rate": 0.01,
+    "n_centers": 36,
+    "seed": 50,
+    "steps_to_10_successes": 15706,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 80
+  },
+  {
+    "learning_rate": 0.01,
+    "n_centers": 36,
+    "seed": 51,
+    "steps_to_10_successes": 14810,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 76
+  },
+  {
+    "learning_rate": 0.01,
+    "n_centers": 49,
+    "seed": 42,
+    "steps_to_10_successes": 11681,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 60
+  },
+  {
+    "learning_rate": 0.01,
+    "n_centers": 49,
+    "seed": 43,
+    "steps_to_10_successes": 12957,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 67
+  },
+  {
+    "learning_rate": 0.01,
+    "n_centers": 49,
+    "seed": 44,
+    "steps_to_10_successes": 10617,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 55
+  },
+  {
+    "learning_rate": 0.01,
+    "n_centers": 49,
+    "seed": 45,
+    "steps_to_10_successes": 12885,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 66
+  },
+  {
+    "learning_rate": 0.01,
+    "n_centers": 49,
+    "seed": 46,
+    "steps_to_10_successes": 10450,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 54
+  },
+  {
+    "learning_rate": 0.01,
+    "n_centers": 49,
+    "seed": 47,
+    "steps_to_10_successes": 11819,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 61
+  },
+  {
+    "learning_rate": 0.01,
+    "n_centers": 49,
+    "seed": 48,
+    "steps_to_10_successes": 12913,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 67
+  },
+  {
+    "learning_rate": 0.01,
+    "n_centers": 49,
+    "seed": 49,
+    "steps_to_10_successes": 11428,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 59
+  },
+  {
+    "learning_rate": 0.01,
+    "n_centers": 49,
+    "seed": 50,
+    "steps_to_10_successes": 11684,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 60
+  },
+  {
+    "learning_rate": 0.01,
+    "n_centers": 49,
+    "seed": 51,
+    "steps_to_10_successes": 12028,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 62
+  },
+  {
+    "learning_rate": 0.02,
+    "n_centers": 9,
+    "seed": 42,
+    "steps_to_10_successes": 50000,
+    "reached_target": false,
+    "total_successes": 9,
+    "episodes": 251
+  },
+  {
+    "learning_rate": 0.02,
+    "n_centers": 9,
+    "seed": 43,
+    "steps_to_10_successes": 50000,
+    "reached_target": false,
+    "total_successes": 7,
+    "episodes": 251
+  },
+  {
+    "learning_rate": 0.02,
+    "n_centers": 9,
+    "seed": 44,
+    "steps_to_10_successes": 50000,
+    "reached_target": false,
+    "total_successes": 2,
+    "episodes": 250
+  },
+  {
+    "learning_rate": 0.02,
+    "n_centers": 9,
+    "seed": 45,
+    "steps_to_10_successes": 50000,
+    "reached_target": false,
+    "total_successes": 3,
+    "episodes": 250
+  },
+  {
+    "learning_rate": 0.02,
+    "n_centers": 9,
+    "seed": 46,
+    "steps_to_10_successes": 50000,
+    "reached_target": false,
+    "total_successes": 6,
+    "episodes": 250
+  },
+  {
+    "learning_rate": 0.02,
+    "n_centers": 9,
+    "seed": 47,
+    "steps_to_10_successes": 50000,
+    "reached_target": false,
+    "total_successes": 2,
+    "episodes": 250
+  },
+  {
+    "learning_rate": 0.02,
+    "n_centers": 9,
+    "seed": 48,
+    "steps_to_10_successes": 43252,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 218
+  },
+  {
+    "learning_rate": 0.02,
+    "n_centers": 9,
+    "seed": 49,
+    "steps_to_10_successes": 50000,
+    "reached_target": false,
+    "total_successes": 4,
+    "episodes": 250
+  },
+  {
+    "learning_rate": 0.02,
+    "n_centers": 9,
+    "seed": 50,
+    "steps_to_10_successes": 50000,
+    "reached_target": false,
+    "total_successes": 8,
+    "episodes": 251
+  },
+  {
+    "learning_rate": 0.02,
+    "n_centers": 9,
+    "seed": 51,
+    "steps_to_10_successes": 50000,
+    "reached_target": false,
+    "total_successes": 6,
+    "episodes": 250
+  },
+  {
+    "learning_rate": 0.02,
+    "n_centers": 16,
+    "seed": 42,
+    "steps_to_10_successes": 18671,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 95
+  },
+  {
+    "learning_rate": 0.02,
+    "n_centers": 16,
+    "seed": 43,
+    "steps_to_10_successes": 20967,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 107
+  },
+  {
+    "learning_rate": 0.02,
+    "n_centers": 16,
+    "seed": 44,
+    "steps_to_10_successes": 20405,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 103
+  },
+  {
+    "learning_rate": 0.02,
+    "n_centers": 16,
+    "seed": 45,
+    "steps_to_10_successes": 21483,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 109
+  },
+  {
+    "learning_rate": 0.02,
+    "n_centers": 16,
+    "seed": 46,
+    "steps_to_10_successes": 19138,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 98
+  },
+  {
+    "learning_rate": 0.02,
+    "n_centers": 16,
+    "seed": 47,
+    "steps_to_10_successes": 18554,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 95
+  },
+  {
+    "learning_rate": 0.02,
+    "n_centers": 16,
+    "seed": 48,
+    "steps_to_10_successes": 20857,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 106
+  },
+  {
+    "learning_rate": 0.02,
+    "n_centers": 16,
+    "seed": 49,
+    "steps_to_10_successes": 23447,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 118
+  },
+  {
+    "learning_rate": 0.02,
+    "n_centers": 16,
+    "seed": 50,
+    "steps_to_10_successes": 21481,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 109
+  },
+  {
+    "learning_rate": 0.02,
+    "n_centers": 16,
+    "seed": 51,
+    "steps_to_10_successes": 21505,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 109
+  },
+  {
+    "learning_rate": 0.02,
+    "n_centers": 25,
+    "seed": 42,
+    "steps_to_10_successes": 14046,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 72
+  },
+  {
+    "learning_rate": 0.02,
+    "n_centers": 25,
+    "seed": 43,
+    "steps_to_10_successes": 14899,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 76
+  },
+  {
+    "learning_rate": 0.02,
+    "n_centers": 25,
+    "seed": 44,
+    "steps_to_10_successes": 13331,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 68
+  },
+  {
+    "learning_rate": 0.02,
+    "n_centers": 25,
+    "seed": 45,
+    "steps_to_10_successes": 13508,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 70
+  },
+  {
+    "learning_rate": 0.02,
+    "n_centers": 25,
+    "seed": 46,
+    "steps_to_10_successes": 12717,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 65
+  },
+  {
+    "learning_rate": 0.02,
+    "n_centers": 25,
+    "seed": 47,
+    "steps_to_10_successes": 12969,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 66
+  },
+  {
+    "learning_rate": 0.02,
+    "n_centers": 25,
+    "seed": 48,
+    "steps_to_10_successes": 11251,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 58
+  },
+  {
+    "learning_rate": 0.02,
+    "n_centers": 25,
+    "seed": 49,
+    "steps_to_10_successes": 12396,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 64
+  },
+  {
+    "learning_rate": 0.02,
+    "n_centers": 25,
+    "seed": 50,
+    "steps_to_10_successes": 13416,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 69
+  },
+  {
+    "learning_rate": 0.02,
+    "n_centers": 25,
+    "seed": 51,
+    "steps_to_10_successes": 11525,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 59
+  },
+  {
+    "learning_rate": 0.02,
+    "n_centers": 36,
+    "seed": 42,
+    "steps_to_10_successes": 9707,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 50
+  },
+  {
+    "learning_rate": 0.02,
+    "n_centers": 36,
+    "seed": 43,
+    "steps_to_10_successes": 8455,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 44
+  },
+  {
+    "learning_rate": 0.02,
+    "n_centers": 36,
+    "seed": 44,
+    "steps_to_10_successes": 11287,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 58
+  },
+  {
+    "learning_rate": 0.02,
+    "n_centers": 36,
+    "seed": 45,
+    "steps_to_10_successes": 9567,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 49
+  },
+  {
+    "learning_rate": 0.02,
+    "n_centers": 36,
+    "seed": 46,
+    "steps_to_10_successes": 9485,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 49
+  },
+  {
+    "learning_rate": 0.02,
+    "n_centers": 36,
+    "seed": 47,
+    "steps_to_10_successes": 9224,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 48
+  },
+  {
+    "learning_rate": 0.02,
+    "n_centers": 36,
+    "seed": 48,
+    "steps_to_10_successes": 11347,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 58
+  },
+  {
+    "learning_rate": 0.02,
+    "n_centers": 36,
+    "seed": 49,
+    "steps_to_10_successes": 8499,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 44
+  },
+  {
+    "learning_rate": 0.02,
+    "n_centers": 36,
+    "seed": 50,
+    "steps_to_10_successes": 9716,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 50
+  },
+  {
+    "learning_rate": 0.02,
+    "n_centers": 36,
+    "seed": 51,
+    "steps_to_10_successes": 10378,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 53
+  },
+  {
+    "learning_rate": 0.02,
+    "n_centers": 49,
+    "seed": 42,
+    "steps_to_10_successes": 7589,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 40
+  },
+  {
+    "learning_rate": 0.02,
+    "n_centers": 49,
+    "seed": 43,
+    "steps_to_10_successes": 7370,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 38
+  },
+  {
+    "learning_rate": 0.02,
+    "n_centers": 49,
+    "seed": 44,
+    "steps_to_10_successes": 7602,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 40
+  },
+  {
+    "learning_rate": 0.02,
+    "n_centers": 49,
+    "seed": 45,
+    "steps_to_10_successes": 7058,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 37
+  },
+  {
+    "learning_rate": 0.02,
+    "n_centers": 49,
+    "seed": 46,
+    "steps_to_10_successes": 6821,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 36
+  },
+  {
+    "learning_rate": 0.02,
+    "n_centers": 49,
+    "seed": 47,
+    "steps_to_10_successes": 5972,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 31
+  },
+  {
+    "learning_rate": 0.02,
+    "n_centers": 49,
+    "seed": 48,
+    "steps_to_10_successes": 7084,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 37
+  },
+  {
+    "learning_rate": 0.02,
+    "n_centers": 49,
+    "seed": 49,
+    "steps_to_10_successes": 6896,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 36
+  },
+  {
+    "learning_rate": 0.02,
+    "n_centers": 49,
+    "seed": 50,
+    "steps_to_10_successes": 7184,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 38
+  },
+  {
+    "learning_rate": 0.02,
+    "n_centers": 49,
+    "seed": 51,
+    "steps_to_10_successes": 7245,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 38
+  },
+  {
+    "learning_rate": 0.05,
+    "n_centers": 9,
+    "seed": 42,
+    "steps_to_10_successes": 50000,
+    "reached_target": false,
+    "total_successes": 6,
+    "episodes": 251
+  },
+  {
+    "learning_rate": 0.05,
+    "n_centers": 9,
+    "seed": 43,
+    "steps_to_10_successes": 49681,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 250
+  },
+  {
+    "learning_rate": 0.05,
+    "n_centers": 9,
+    "seed": 44,
+    "steps_to_10_successes": 46779,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 236
+  },
+  {
+    "learning_rate": 0.05,
+    "n_centers": 9,
+    "seed": 45,
+    "steps_to_10_successes": 50000,
+    "reached_target": false,
+    "total_successes": 6,
+    "episodes": 251
+  },
+  {
+    "learning_rate": 0.05,
+    "n_centers": 9,
+    "seed": 46,
+    "steps_to_10_successes": 50000,
+    "reached_target": false,
+    "total_successes": 8,
+    "episodes": 251
+  },
+  {
+    "learning_rate": 0.05,
+    "n_centers": 9,
+    "seed": 47,
+    "steps_to_10_successes": 46060,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 232
+  },
+  {
+    "learning_rate": 0.05,
+    "n_centers": 9,
+    "seed": 48,
+    "steps_to_10_successes": 38542,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 194
+  },
+  {
+    "learning_rate": 0.05,
+    "n_centers": 9,
+    "seed": 49,
+    "steps_to_10_successes": 50000,
+    "reached_target": false,
+    "total_successes": 9,
+    "episodes": 250
+  },
+  {
+    "learning_rate": 0.05,
+    "n_centers": 9,
+    "seed": 50,
+    "steps_to_10_successes": 50000,
+    "reached_target": false,
+    "total_successes": 7,
+    "episodes": 251
+  },
+  {
+    "learning_rate": 0.05,
+    "n_centers": 9,
+    "seed": 51,
+    "steps_to_10_successes": 50000,
+    "reached_target": false,
+    "total_successes": 9,
+    "episodes": 251
+  },
+  {
+    "learning_rate": 0.05,
+    "n_centers": 16,
+    "seed": 42,
+    "steps_to_10_successes": 11943,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 63
+  },
+  {
+    "learning_rate": 0.05,
+    "n_centers": 16,
+    "seed": 43,
+    "steps_to_10_successes": 9728,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 51
+  },
+  {
+    "learning_rate": 0.05,
+    "n_centers": 16,
+    "seed": 44,
+    "steps_to_10_successes": 8916,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 46
+  },
+  {
+    "learning_rate": 0.05,
+    "n_centers": 16,
+    "seed": 45,
+    "steps_to_10_successes": 10080,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 52
+  },
+  {
+    "learning_rate": 0.05,
+    "n_centers": 16,
+    "seed": 46,
+    "steps_to_10_successes": 9931,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 52
+  },
+  {
+    "learning_rate": 0.05,
+    "n_centers": 16,
+    "seed": 47,
+    "steps_to_10_successes": 12329,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 65
+  },
+  {
+    "learning_rate": 0.05,
+    "n_centers": 16,
+    "seed": 48,
+    "steps_to_10_successes": 16119,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 82
+  },
+  {
+    "learning_rate": 0.05,
+    "n_centers": 16,
+    "seed": 49,
+    "steps_to_10_successes": 9230,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 48
+  },
+  {
+    "learning_rate": 0.05,
+    "n_centers": 16,
+    "seed": 50,
+    "steps_to_10_successes": 9206,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 48
+  },
+  {
+    "learning_rate": 0.05,
+    "n_centers": 16,
+    "seed": 51,
+    "steps_to_10_successes": 10383,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 54
+  },
+  {
+    "learning_rate": 0.05,
+    "n_centers": 25,
+    "seed": 42,
+    "steps_to_10_successes": 7670,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 40
+  },
+  {
+    "learning_rate": 0.05,
+    "n_centers": 25,
+    "seed": 43,
+    "steps_to_10_successes": 6872,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 36
+  },
+  {
+    "learning_rate": 0.05,
+    "n_centers": 25,
+    "seed": 44,
+    "steps_to_10_successes": 7013,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 37
+  },
+  {
+    "learning_rate": 0.05,
+    "n_centers": 25,
+    "seed": 45,
+    "steps_to_10_successes": 6464,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 34
+  },
+  {
+    "learning_rate": 0.05,
+    "n_centers": 25,
+    "seed": 46,
+    "steps_to_10_successes": 6296,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 33
+  },
+  {
+    "learning_rate": 0.05,
+    "n_centers": 25,
+    "seed": 47,
+    "steps_to_10_successes": 6214,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 33
+  },
+  {
+    "learning_rate": 0.05,
+    "n_centers": 25,
+    "seed": 48,
+    "steps_to_10_successes": 6492,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 34
+  },
+  {
+    "learning_rate": 0.05,
+    "n_centers": 25,
+    "seed": 49,
+    "steps_to_10_successes": 6437,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 34
+  },
+  {
+    "learning_rate": 0.05,
+    "n_centers": 25,
+    "seed": 50,
+    "steps_to_10_successes": 6970,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 37
+  },
+  {
+    "learning_rate": 0.05,
+    "n_centers": 25,
+    "seed": 51,
+    "steps_to_10_successes": 6664,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 35
+  },
+  {
+    "learning_rate": 0.05,
+    "n_centers": 36,
+    "seed": 42,
+    "steps_to_10_successes": 5042,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 27
+  },
+  {
+    "learning_rate": 0.05,
+    "n_centers": 36,
+    "seed": 43,
+    "steps_to_10_successes": 5366,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 29
+  },
+  {
+    "learning_rate": 0.05,
+    "n_centers": 36,
+    "seed": 44,
+    "steps_to_10_successes": 5338,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 28
+  },
+  {
+    "learning_rate": 0.05,
+    "n_centers": 36,
+    "seed": 45,
+    "steps_to_10_successes": 6283,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 33
+  },
+  {
+    "learning_rate": 0.05,
+    "n_centers": 36,
+    "seed": 46,
+    "steps_to_10_successes": 5136,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 27
+  },
+  {
+    "learning_rate": 0.05,
+    "n_centers": 36,
+    "seed": 47,
+    "steps_to_10_successes": 4732,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 25
+  },
+  {
+    "learning_rate": 0.05,
+    "n_centers": 36,
+    "seed": 48,
+    "steps_to_10_successes": 4524,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 24
+  },
+  {
+    "learning_rate": 0.05,
+    "n_centers": 36,
+    "seed": 49,
+    "steps_to_10_successes": 5719,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 31
+  },
+  {
+    "learning_rate": 0.05,
+    "n_centers": 36,
+    "seed": 50,
+    "steps_to_10_successes": 4609,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 25
+  },
+  {
+    "learning_rate": 0.05,
+    "n_centers": 36,
+    "seed": 51,
+    "steps_to_10_successes": 4883,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 26
+  },
+  {
+    "learning_rate": 0.05,
+    "n_centers": 49,
+    "seed": 42,
+    "steps_to_10_successes": 4641,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 26
+  },
+  {
+    "learning_rate": 0.05,
+    "n_centers": 49,
+    "seed": 43,
+    "steps_to_10_successes": 4432,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 24
+  },
+  {
+    "learning_rate": 0.05,
+    "n_centers": 49,
+    "seed": 44,
+    "steps_to_10_successes": 4578,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 25
+  },
+  {
+    "learning_rate": 0.05,
+    "n_centers": 49,
+    "seed": 45,
+    "steps_to_10_successes": 4483,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 26
+  },
+  {
+    "learning_rate": 0.05,
+    "n_centers": 49,
+    "seed": 46,
+    "steps_to_10_successes": 4751,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 26
+  },
+  {
+    "learning_rate": 0.05,
+    "n_centers": 49,
+    "seed": 47,
+    "steps_to_10_successes": 4192,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 23
+  },
+  {
+    "learning_rate": 0.05,
+    "n_centers": 49,
+    "seed": 48,
+    "steps_to_10_successes": 4960,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 27
+  },
+  {
+    "learning_rate": 0.05,
+    "n_centers": 49,
+    "seed": 49,
+    "steps_to_10_successes": 3912,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 22
+  },
+  {
+    "learning_rate": 0.05,
+    "n_centers": 49,
+    "seed": 50,
+    "steps_to_10_successes": 4598,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 25
+  },
+  {
+    "learning_rate": 0.05,
+    "n_centers": 49,
+    "seed": 51,
+    "steps_to_10_successes": 4345,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 24
+  },
+  {
+    "learning_rate": 0.1,
+    "n_centers": 9,
+    "seed": 42,
+    "steps_to_10_successes": 31027,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 157
+  },
+  {
+    "learning_rate": 0.1,
+    "n_centers": 9,
+    "seed": 43,
+    "steps_to_10_successes": 45619,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 230
+  },
+  {
+    "learning_rate": 0.1,
+    "n_centers": 9,
+    "seed": 44,
+    "steps_to_10_successes": 38419,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 194
+  },
+  {
+    "learning_rate": 0.1,
+    "n_centers": 9,
+    "seed": 45,
+    "steps_to_10_successes": 41170,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 207
+  },
+  {
+    "learning_rate": 0.1,
+    "n_centers": 9,
+    "seed": 46,
+    "steps_to_10_successes": 50000,
+    "reached_target": false,
+    "total_successes": 8,
+    "episodes": 251
+  },
+  {
+    "learning_rate": 0.1,
+    "n_centers": 9,
+    "seed": 47,
+    "steps_to_10_successes": 49513,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 249
+  },
+  {
+    "learning_rate": 0.1,
+    "n_centers": 9,
+    "seed": 48,
+    "steps_to_10_successes": 50000,
+    "reached_target": false,
+    "total_successes": 8,
+    "episodes": 250
+  },
+  {
+    "learning_rate": 0.1,
+    "n_centers": 9,
+    "seed": 49,
+    "steps_to_10_successes": 46873,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 236
+  },
+  {
+    "learning_rate": 0.1,
+    "n_centers": 9,
+    "seed": 50,
+    "steps_to_10_successes": 46082,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 232
+  },
+  {
+    "learning_rate": 0.1,
+    "n_centers": 9,
+    "seed": 51,
+    "steps_to_10_successes": 37717,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 190
+  },
+  {
+    "learning_rate": 0.1,
+    "n_centers": 16,
+    "seed": 42,
+    "steps_to_10_successes": 9166,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 48
+  },
+  {
+    "learning_rate": 0.1,
+    "n_centers": 16,
+    "seed": 43,
+    "steps_to_10_successes": 6657,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 36
+  },
+  {
+    "learning_rate": 0.1,
+    "n_centers": 16,
+    "seed": 44,
+    "steps_to_10_successes": 10595,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 56
+  },
+  {
+    "learning_rate": 0.1,
+    "n_centers": 16,
+    "seed": 45,
+    "steps_to_10_successes": 6467,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 34
+  },
+  {
+    "learning_rate": 0.1,
+    "n_centers": 16,
+    "seed": 46,
+    "steps_to_10_successes": 6347,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 34
+  },
+  {
+    "learning_rate": 0.1,
+    "n_centers": 16,
+    "seed": 47,
+    "steps_to_10_successes": 6714,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 36
+  },
+  {
+    "learning_rate": 0.1,
+    "n_centers": 16,
+    "seed": 48,
+    "steps_to_10_successes": 5816,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 31
+  },
+  {
+    "learning_rate": 0.1,
+    "n_centers": 16,
+    "seed": 49,
+    "steps_to_10_successes": 6614,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 35
+  },
+  {
+    "learning_rate": 0.1,
+    "n_centers": 16,
+    "seed": 50,
+    "steps_to_10_successes": 6148,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 33
+  },
+  {
+    "learning_rate": 0.1,
+    "n_centers": 16,
+    "seed": 51,
+    "steps_to_10_successes": 7903,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 42
+  },
+  {
+    "learning_rate": 0.1,
+    "n_centers": 25,
+    "seed": 42,
+    "steps_to_10_successes": 4007,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 22
+  },
+  {
+    "learning_rate": 0.1,
+    "n_centers": 25,
+    "seed": 43,
+    "steps_to_10_successes": 5753,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 31
+  },
+  {
+    "learning_rate": 0.1,
+    "n_centers": 25,
+    "seed": 44,
+    "steps_to_10_successes": 3980,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 22
+  },
+  {
+    "learning_rate": 0.1,
+    "n_centers": 25,
+    "seed": 45,
+    "steps_to_10_successes": 4691,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 26
+  },
+  {
+    "learning_rate": 0.1,
+    "n_centers": 25,
+    "seed": 46,
+    "steps_to_10_successes": 4970,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 28
+  },
+  {
+    "learning_rate": 0.1,
+    "n_centers": 25,
+    "seed": 47,
+    "steps_to_10_successes": 5222,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 28
+  },
+  {
+    "learning_rate": 0.1,
+    "n_centers": 25,
+    "seed": 48,
+    "steps_to_10_successes": 4622,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 25
+  },
+  {
+    "learning_rate": 0.1,
+    "n_centers": 25,
+    "seed": 49,
+    "steps_to_10_successes": 5545,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 30
+  },
+  {
+    "learning_rate": 0.1,
+    "n_centers": 25,
+    "seed": 50,
+    "steps_to_10_successes": 4266,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 23
+  },
+  {
+    "learning_rate": 0.1,
+    "n_centers": 25,
+    "seed": 51,
+    "steps_to_10_successes": 4617,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 25
+  },
+  {
+    "learning_rate": 0.1,
+    "n_centers": 36,
+    "seed": 42,
+    "steps_to_10_successes": 3605,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 20
+  },
+  {
+    "learning_rate": 0.1,
+    "n_centers": 36,
+    "seed": 43,
+    "steps_to_10_successes": 4011,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 22
+  },
+  {
+    "learning_rate": 0.1,
+    "n_centers": 36,
+    "seed": 44,
+    "steps_to_10_successes": 3375,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 19
+  },
+  {
+    "learning_rate": 0.1,
+    "n_centers": 36,
+    "seed": 45,
+    "steps_to_10_successes": 3834,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 22
+  },
+  {
+    "learning_rate": 0.1,
+    "n_centers": 36,
+    "seed": 46,
+    "steps_to_10_successes": 3621,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 21
+  },
+  {
+    "learning_rate": 0.1,
+    "n_centers": 36,
+    "seed": 47,
+    "steps_to_10_successes": 3734,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 20
+  },
+  {
+    "learning_rate": 0.1,
+    "n_centers": 36,
+    "seed": 48,
+    "steps_to_10_successes": 4122,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 22
+  },
+  {
+    "learning_rate": 0.1,
+    "n_centers": 36,
+    "seed": 49,
+    "steps_to_10_successes": 3545,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 20
+  },
+  {
+    "learning_rate": 0.1,
+    "n_centers": 36,
+    "seed": 50,
+    "steps_to_10_successes": 3482,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 19
+  },
+  {
+    "learning_rate": 0.1,
+    "n_centers": 36,
+    "seed": 51,
+    "steps_to_10_successes": 3037,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 18
+  },
+  {
+    "learning_rate": 0.1,
+    "n_centers": 49,
+    "seed": 42,
+    "steps_to_10_successes": 2749,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 16
+  },
+  {
+    "learning_rate": 0.1,
+    "n_centers": 49,
+    "seed": 43,
+    "steps_to_10_successes": 4612,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 26
+  },
+  {
+    "learning_rate": 0.1,
+    "n_centers": 49,
+    "seed": 44,
+    "steps_to_10_successes": 3411,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 20
+  },
+  {
+    "learning_rate": 0.1,
+    "n_centers": 49,
+    "seed": 45,
+    "steps_to_10_successes": 3090,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 18
+  },
+  {
+    "learning_rate": 0.1,
+    "n_centers": 49,
+    "seed": 46,
+    "steps_to_10_successes": 2767,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 16
+  },
+  {
+    "learning_rate": 0.1,
+    "n_centers": 49,
+    "seed": 47,
+    "steps_to_10_successes": 4416,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 25
+  },
+  {
+    "learning_rate": 0.1,
+    "n_centers": 49,
+    "seed": 48,
+    "steps_to_10_successes": 3217,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 18
+  },
+  {
+    "learning_rate": 0.1,
+    "n_centers": 49,
+    "seed": 49,
+    "steps_to_10_successes": 3242,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 19
+  },
+  {
+    "learning_rate": 0.1,
+    "n_centers": 49,
+    "seed": 50,
+    "steps_to_10_successes": 3055,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 18
+  },
+  {
+    "learning_rate": 0.1,
+    "n_centers": 49,
+    "seed": 51,
+    "steps_to_10_successes": 3489,
+    "reached_target": true,
+    "total_successes": 10,
+    "episodes": 20
+  }
+]
